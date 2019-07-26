@@ -91,6 +91,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrainMTCNNprocessor", "Samp
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleLnet", "SamplesZQCNN\SampleLnet\SampleLnet.vcxproj", "{7F7A4C3A-5D05-4821-BAE5-B013BE327C8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+		{68ED426A-4BD4-4703-8741-048A0A07CE9F} = {68ED426A-4BD4-4703-8741-048A0A07CE9F}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "model2code", "SamplesZQCNN\model2code\model2code.vcxproj", "{8EA749F2-4DBA-4246-AB89-FDA9F7AF54BE}"
 EndProject
@@ -112,6 +116,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMatMulNEON_FP16", "SamplesZQCNN\SampleMatMulNEON_FP16\SampleMatMulNEON_FP16.vcxproj", "{5EAAC698-6085-4CBA-83E7-0EBDDD7B9D14}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testWinoF2233", "SamplesZQCNN\testWinoF2233\testWinoF2233.vcxproj", "{04D97EA9-2962-4963-873F-A2A3FC1F0BDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+		{68ED426A-4BD4-4703-8741-048A0A07CE9F} = {68ED426A-4BD4-4703-8741-048A0A07CE9F}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleNCNNsgemm", "SamplesZQCNN\SampleNCNNsgemm\SampleNCNNsgemm.vcxproj", "{41674317-7076-432E-BFE3-5DCF0BAFAE0C}"
 EndProject
@@ -123,6 +131,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMTCNN_NCHWC4", "Sampl
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testImageProcessing", "SamplesZQCNN\testImageProcessing\testImageProcessing.vcxproj", "{55D527D9-B32E-42C3-A872-FF76070171B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+		{68ED426A-4BD4-4703-8741-048A0A07CE9F} = {68ED426A-4BD4-4703-8741-048A0A07CE9F}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMTCNN_AspectRatio", "SamplesZQCNN\SampleMTCNN_AspectRatio\SampleMTCNN_AspectRatio.vcxproj", "{2A5994D0-DF41-444E-BC6A-A1B8D2D3439B}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -130,10 +142,33 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMTCNN_AspectRatio", "
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMTCNNGesture", "SamplesZQCNN\SampleMTCNNGesture\SampleMTCNNGesture.vcxproj", "{441CC3CD-17FB-4CDF-99E9-AD2B1B5911DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+		{68ED426A-4BD4-4703-8741-048A0A07CE9F} = {68ED426A-4BD4-4703-8741-048A0A07CE9F}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMTCNN_Video", "SamplesZQCNN\SampleMTCNN_Video\SampleMTCNN_Video.vcxproj", "{F6577C0E-6A70-4A30-A9AA-F4B0D7A78EAE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleCascadeOnet", "SamplesZQCNN\SampleCascadeOnet\SampleCascadeOnet.vcxproj", "{D1F0D88F-32A2-44F6-AE05-94C9907CFD8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleVideoFaceDetection", "SamplesZQCNN\SampleVideoFaceDetection\SampleVideoFaceDetection.vcxproj", "{BB382C69-8158-41F1-A382-AF07DEBBA7AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SamplePersonPose", "SamplesZQCNN\SamplePersonPose\SamplePersonPose.vcxproj", "{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleHeatMap", "SamplesZQCNN\SampleHeatMap\SampleHeatMap.vcxproj", "{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+		{68ED426A-4BD4-4703-8741-048A0A07CE9F} = {68ED426A-4BD4-4703-8741-048A0A07CE9F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSwapFace", "SamplesZQCNN\SampleSwapFace\SampleSwapFace.vcxproj", "{8A5269F2-C387-4631-BBF2-0024F38A3AF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43AA2D6A-447E-4153-8A29-7AE8A8296DC7} = {43AA2D6A-447E-4153-8A29-7AE8A8296DC7}
+		{68ED426A-4BD4-4703-8741-048A0A07CE9F} = {68ED426A-4BD4-4703-8741-048A0A07CE9F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -423,6 +458,38 @@ Global
 		{D1F0D88F-32A2-44F6-AE05-94C9907CFD8B}.Release|x64.Build.0 = Release|x64
 		{D1F0D88F-32A2-44F6-AE05-94C9907CFD8B}.Release|x86.ActiveCfg = Release|Win32
 		{D1F0D88F-32A2-44F6-AE05-94C9907CFD8B}.Release|x86.Build.0 = Release|Win32
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Debug|x64.ActiveCfg = Debug|x64
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Debug|x64.Build.0 = Debug|x64
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Debug|x86.Build.0 = Debug|Win32
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Release|x64.ActiveCfg = Release|x64
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Release|x64.Build.0 = Release|x64
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Release|x86.ActiveCfg = Release|Win32
+		{BB382C69-8158-41F1-A382-AF07DEBBA7AF}.Release|x86.Build.0 = Release|Win32
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Debug|x64.ActiveCfg = Debug|x64
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Debug|x64.Build.0 = Debug|x64
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Debug|x86.ActiveCfg = Debug|Win32
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Debug|x86.Build.0 = Debug|Win32
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Release|x64.ActiveCfg = Release|x64
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Release|x64.Build.0 = Release|x64
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Release|x86.ActiveCfg = Release|Win32
+		{C63FD0AB-F375-4CE2-9FB7-7880B05DA124}.Release|x86.Build.0 = Release|Win32
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Debug|x64.ActiveCfg = Debug|x64
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Debug|x64.Build.0 = Debug|x64
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Debug|x86.Build.0 = Debug|Win32
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Release|x64.ActiveCfg = Release|x64
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Release|x64.Build.0 = Release|x64
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Release|x86.ActiveCfg = Release|Win32
+		{E9D23562-A010-4FA2-BB63-0D3173BAC1A3}.Release|x86.Build.0 = Release|Win32
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Debug|x64.ActiveCfg = Debug|x64
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Debug|x64.Build.0 = Debug|x64
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Debug|x86.Build.0 = Debug|Win32
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Release|x64.ActiveCfg = Release|x64
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Release|x64.Build.0 = Release|x64
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Release|x86.ActiveCfg = Release|Win32
+		{8A5269F2-C387-4631-BBF2-0024F38A3AF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
